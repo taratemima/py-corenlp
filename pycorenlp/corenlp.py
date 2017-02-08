@@ -54,3 +54,7 @@ class StanfordCoreNLP:
         except:
             pass
         return output
+    
+    def classify(self, text, properties=None):
+        pass 
+#This is supposed to be for http://nlp.stanford.edu/nlp/javadoc/javanlp/edu/stanford/nlp/classify/ColumnDataClassifier.html
